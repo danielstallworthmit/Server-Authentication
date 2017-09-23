@@ -1,0 +1,15 @@
+{
+  "name": "Server-Authentication",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/danielstallworthmit/Server-Authentication.git",
+  "author": "danielstallworthmit <danielstallworthmit@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.12",
+    "morgan": "^1.8.2",
+    "nodemon": "^1.12.1"
+  }
+}
