@@ -2,6 +2,9 @@
   "name": "Server-Authentication",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
   "repository": "https://github.com/danielstallworthmit/Server-Authentication.git",
   "author": "danielstallworthmit <danielstallworthmit@gmail.com>",
   "license": "MIT",

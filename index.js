@@ -1,11 +1,15 @@
 // Imports
-const exprees = require('express');
+const express = require('express');
 const http = require('http');
 const bodyParser = require('body-parser');
-const morgn = require('mogan');
+const morgan = require('morgan');
+const router = require('./router');
 const app = express();
 
 // App setup
+app.use(morgan('combined'));
+app.use(bodyParser.json({ type: '*/*' }));
+router(app);
 
 // Server setup
 const port = process.env.PORT || 3090;
