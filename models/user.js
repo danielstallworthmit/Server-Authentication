@@ -8,7 +8,7 @@ const userSchema = new Schema({
     password: String
 });
 
-// On save hook excryp password using bcrypt
+// On save hook encrypt password using bcrypt
 userSchema.pre('save', function(next) {
     const user = this;
     bcrypt.genSalt(10, function(err, salt) {
